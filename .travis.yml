@@ -1,0 +1,12 @@
+language: java
+
+jdk:
+
+  - oraclejdk9
+
+  - openjdk8
+
+  - oraclejdk13
+
+script: ant build
+
